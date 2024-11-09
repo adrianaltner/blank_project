@@ -1,9 +1,9 @@
 import './style.css'
-import viteLogo from '/pushups.webp'
+import image from '/pushups.webp'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+      <img src="${image}" class="image" alt="Vite logo" />
   </div>
 `
 
